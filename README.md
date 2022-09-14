@@ -93,23 +93,20 @@ $ source venv/bin/activate
 $ python main.py wave
 ```
 
-3. Use play-testing wth your partner to guide your development.
+1. Use play-testing to guide your development.
 
-4. Use tests to verify your functions after thoroughly play-testing. See instructions for running tests in the section below. *A complete set of unit tests is provided for this project.*
+2. Use tests to verify your functions after thoroughly play-testing. See instructions for running tests in the section below. *A complete set of unit tests is provided for this project.*
 
-5. Use git to commit your work regularly!  Commit between each wave.
+3. Use git to commit your work regularly!  Commit between each wave.
 
 ```bash
 # Add your current work
 $ git add .
 $ git commit -m "meaningful message explaining your commit"
 ```
+1. Move on to the next wave!
 
-6. Consider switching driver/navigator rolls. Make sure the current driver pushes using `git push` and the new driver pulls using `git pull`.
-
-7. Move on to the next wave!
-
-8. When you are finished working for the day, deactivate your environment with deactivate or closing the Terminal tab/window
+2. When you are finished working for the day, deactivate your environment with deactivate or closing the Terminal tab/window
 
 ```bash
 $ deactivate
