@@ -6,7 +6,6 @@
 - Reading tests
 - Using git to maintain code
 - Manipulating and processing data in lists and strings
-- Practicing pair-programming techniques
 
 ## Goal
 
@@ -18,43 +17,21 @@ In this version of _Adagrams_, we will only be working with the English alphabet
 
 ![an image of a pile of letter tiles](images/letter-tiles.jpeg)
 
-## Pair Programming
-
-Utilize good pair programming practices. Refer to this [medium article](https://medium.com/@weblab_tech/pair-programming-guide-a76ca43ff389), and the lesson in Learn titled Intro to Pair Programming from Approaching a Problem if you need a refresher for some best practices. Switch _driver_ and _navigator_ roles often. When there is uncertainty or confusion, step away from the keyboard and discuss, plan, and document on paper or whiteboard before continuing.
-
 ## One-Time Project Setup
 
 Follow these directions once, a the beginning of your project:
-
-*Only one member of the team should complete the following two steps steps:*
 
 1. In Github, click on the "Fork" button in github and fork the repository to your Github account.  This will make a copy of the project in your github account. 
 
 ![Fork Button](images/fork.png)
 
-2. In Github, add the other member(s) of your team as collaborators to the repository. Do this by a The student who forked the respository should first choosing **Settings** from the top menu bar, then **Manage access** from the left navigation, and finally **Invite teams or people**.
-
-You can find detailed instructions [here](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/).
-
-![Settings](images/settings.png)
-
-<img src="images/manage-access.png" alt="Manage access" width="250"/>
-
-![Invite teams or people](images/invite.png)
-
-The member(s) who are invite will need to accept the invitation either by accepting an email invitation or accepting the invitation in Github.
-
-Both members of the team will be working from the same forked repository.  Be sure to follow proper git protocol from the Intro to Git topic in Learn.
-
-*Each member of the pair should complete the following steps:*
-
-3. Navigate to your projects folder named `projects`
+2. Navigate to your projects folder named `projects`
 
 ```bash
 $ cd ~/Developer/projects
 ```
 
-4. "Clone" (download a copy of this project) into your projects folder. This command makes a new folder called `adagrams-py`, and then puts the project into this new folder.  Make sure you are cloning from your copy of the project and not the class version (ada-cX).
+3. "Clone" (download a copy of this project) into your projects folder. This command makes a new folder called `adagrams-py`, and then puts the project into this new folder.  Make sure you are cloning from your copy of the project and not the class version (ada-cX).
 
 ```bash
 $ git clone ...
@@ -62,19 +39,19 @@ $ git clone ...
 
 Use `ls` to confirm there's a new project folder
 
-5. Move your location into this project folder
+4. Move your location into this project folder
 
 ```bash
 $ cd adagrams-py
 ```
 
-6. Create a virtual environment named `venv` for this project:
+5. Create a virtual environment named `venv` for this project:
 
 ```bash
 $ python3 -m venv venv
 ```
 
-7. Activate this environment:
+6. Activate this environment:
 
 ```bash
 $ source venv/bin/activate
@@ -85,7 +62,7 @@ Verify that you're in a python3 virtual environment by running:
 - `$ python --version` should output a Python 3 version
 - `$ pip --version` should output that it is working with Python 3
 
-8. Install dependencies once at the beginning of this project with
+7. Install dependencies once at the beginning of this project with
 
 ```bash
 # Must be in activated virtual environment
@@ -93,12 +70,7 @@ $ pip install -r requirements.txt
 ```
 
 Summary of one-time project setup:
-
-One person:
 - [ ] Fork the project respository
-- [ ] Invite team members to the respository
-
-All team members:
 - [ ] `cd` into your `projects` folder
 - [ ] Clone the project onto your machine
 - [ ] `cd` into the `adagrams-py` folder
