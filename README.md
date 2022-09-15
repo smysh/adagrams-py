@@ -194,7 +194,7 @@ Your first task is to build a hand of 10 letters for the user. To do so, impleme
 | L : 4  | Y : 2 |
 | M : 2  | Z : 1 |
 
-**Note:** Making sure that the drawn letters match the rules of the letter pool can be straightforward or very difficult, depending on how you build the data structure for the letter pool. It is worth spending some time with your partner to think carefully about this.
+**Note:** Making sure that the drawn letters match the rules of the letter pool can be straightforward or very difficult, depending on how you build the data structure for the letter pool. It is worth spending some time to think carefully about this.
 
 
 ### Wave 2: use_available_letters
