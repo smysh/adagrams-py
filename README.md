@@ -106,7 +106,7 @@ $ git commit -m "meaningful message explaining your commit"
 ```
 6. Move on to the next wave!
 
-7. When you are finished working for the day, deactivate your environment with deactivate or closing the Terminal tab/window
+7. When you are finished working for the day, deactivate your environment with deactivate or by closing the Terminal tab/window
 
 ```bash
 $ deactivate
