@@ -1,5 +1,6 @@
 def display_welcome_message():
     print("Welcome to Adagrams!")
+    print("created by Soumya Sah")
 
 def display_drawn_letters(letters):
     print("You have drawn the letters:")
